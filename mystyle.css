@@ -1,0 +1,53 @@
+body{
+    background: rgba(0,16,16,225);
+}
+
+#header{
+    background: url(hiufixp.png) no-repeat;
+    background-size: 960px 420px;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding:0px 0px 0px 0px;
+}
+
+#menu{
+    background: url(tr.png);
+    padding: 8px;
+    text-align: right;
+}
+
+#menu a{
+    font-family: arial;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    font-size: 10px;
+    text-decoration: none;
+    color:white;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+#menu a:hover{
+    color:#cb3000;
+}
+
+#title{
+    padding-top: 40px;
+    padding-left: 40px;
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+}
+
+#wrapper #header #title ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #5b5b63;
+    font-family: arial;
+
+}
